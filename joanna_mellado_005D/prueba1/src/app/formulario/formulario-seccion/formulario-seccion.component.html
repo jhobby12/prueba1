@@ -1,0 +1,13 @@
+<section>
+  <fieldset>
+    <label for="">Nombre de la seccion</label>
+    <input type="text"
+    name="nombreSeccion"
+    [value]="seccion.nombreSeccion"
+    (input)="cambiarSeccion($event)">
+  </fieldset>
+  <fieldset>
+    <button (click)="guardarSeccion()">guardar</button>
+  </fieldset>
+
+</section>
